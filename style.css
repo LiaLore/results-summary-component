@@ -7,7 +7,6 @@
 
 body {
     background-color: #ECF2FF;
-
 }
 
 .container {
@@ -190,9 +189,13 @@ button:hover {
     color: hsl(228, 45%, 44%);
 }
 
-@media (min-width:736px) {
+@media (min-width:1440px) {
     body {
-        margin: 2vw 40vh;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     .container {
@@ -275,51 +278,3 @@ button:hover {
         margin-top: 20px;
     }
 }
-
-/* 
-@media(min-width:1440px) {
-
-    .part1>h1 {
-        font-size: 38px;
-        font-weight: 700;
-    }
-
-    .result {
-        width: 200px;
-        height: 200px;
-    }
-
-    .result-text h1 {
-        font-size: 32px;
-        line-height: 32px;
-        letter-spacing: 1px;
-    }
-
-    .result-text p {
-        font-size: 32px;
-        font-weight: 500;
-        line-height: 28px;
-        letter-spacing: 1px;
-    }
-
-    .result h1 {
-        padding-top: 20px;
-        font-size: 54px;
-    }
-
-    li,
-    .reaction h4,
-    .verbal h4,
-    .visual h4,
-    .memory h4 {
-        font-size: 32px;
-        font-weight: 500;
-        line-height: 28px;
-        letter-spacing: 1px;
-    }
-
-    .names img {
-        padding-left: 30px;
-        height: 32px;
-    }
-} */
